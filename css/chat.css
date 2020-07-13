@@ -1,0 +1,4 @@
+.chat {
+  border: 1px solid rgb(182, 144, 144);
+  box-shadow: 0 0 30px 7px rgb(255, 76, 76), inset 0 0 20px 3px rgb(255, 76, 76);
+}
