@@ -12,30 +12,87 @@
   </head>
   <body>
     <div class="screen chat">
-      <nav class="screen__nav">
-        <div class="nav__column">
-          <a href="/friend.html" class="nav__link">
-            <i class="fas fa-user"></i>
-          </a>
-          <a href="/chat.html" class="nav__link selected">
-            <i class="fas fa-comment"></i>
-          </a>
-          <a href="/more.html" class="nav__link">
-            <i class="fas fa-ellipsis-h"></i>
-          </a>
+      <header class="screen__header">
+        <div class="header__column">06:00</div>
+        <div class="header__column">
+          <i class="fas fa-clock"></i>
+          <i class="fas fa-volume-down"></i>
+          <i class="fas fa-wifi"></i>
+          <i class="fas fa-signal"></i>
+          <span class="header__text">100%</span>
+          <i class="fas fa-battery-full"></i>
         </div>
-        <div class="nav__column">
-          <div class="nav__btn">
-            <i class="far fa-smile-wink"></i>
+      </header>
+      <main class="screen__main">
+        <nav class="screen__nav">
+          <div class="nav__column">
+            <a href="/friend.html" title="Friend" class="nav__link">
+              <i class="fas fa-user"></i>
+            </a>
+            <a href="/chat.html" title="Chat" class="nav__link selected">
+              <i class="fas fa-comment"></i>
+            </a>
+            <a href="/more.html" title="More" class="nav__link">
+              <i class="fas fa-ellipsis-h"></i>
+            </a>
           </div>
-          <div class="nav__btn">
-            <i class="far fa-bell"></i>
+          <div class="nav__column">
+            <div class="nav__btn" title="Emoticons">
+              <i class="far fa-smile-wink"></i>
+            </div>
+            <div class="nav__btn">
+              <i class="far fa-bell" title="Notice"></i>
+            </div>
+            <a
+              href="/setting.html"
+              title="Setting"
+              target="_blank"
+              class="nav__btn"
+            >
+              <i class="fas fa-cog"></i
+            ></a>
           </div>
-          <a href="/setting.html" target="_blank" class="nav__btn">
-            <i class="fas fa-cog"></i
-          ></a>
-        </div>
-      </nav>
+        </nav>
+        <main class="chat__container">
+          <div class="chat__title">
+            <div class="title__column">Chat</div>
+            <div class="title__column">
+              <span class="title__icon" title="Open Chat">
+                <i class="far fa-comments"></i>
+              </span>
+              <span class="title__icon" title="Add">
+                <i class="far fa-comment"></i>
+                <span class="icon__plus">+</span>
+              </span>
+            </div>
+          </div>
+          <div class="chat__search">
+            <div class="search__icon">
+              <i class="fas fa-search"></i>
+            </div>
+            <input
+              type="text"
+              class="search__input"
+              placeholder="Search for chat name"
+            />
+          </div>
+          <ul class="chat__list">
+            <li class="chat__content">
+              <div class="content__column">
+                <img src="/images/jaesuk.jpg" class="content__avatar" />
+                <div class="content__title">
+                  <div class="content__name">Yoo Jaesuk</div>
+                  <div class="content__recent-chat">I'm going</div>
+                </div>
+              </div>
+              <div class="content__column">
+                <div class="content__timestamp">PM 2:35</div>
+                <div class="content__new-chat-num">1</div>
+              </div>
+            </li>
+          </ul>
+        </main>
+      </main>
       <footer class="screen__footer">
         <div class="footer__text-box">
           <div class="footer__text">
