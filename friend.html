@@ -11,7 +11,7 @@
     <title>KoKoa Black</title>
   </head>
   <body>
-    <div class="screen chat">
+    <div class="screen friend">
       <header class="screen__header">
         <div class="header__column">06:00</div>
         <div class="header__column">
@@ -23,30 +23,246 @@
           <i class="fas fa-battery-full"></i>
         </div>
       </header>
-      <nav class="screen__nav">
-        <div class="nav__column">
-          <a href="/friend.html" class="nav__link selected">
-            <i class="fas fa-user"></i>
-          </a>
-          <a href="/chat.html" class="nav__link">
-            <i class="fas fa-comment"></i>
-          </a>
-          <a href="/more.html" class="nav__link">
-            <i class="fas fa-ellipsis-h"></i>
-          </a>
-        </div>
-        <div class="nav__column">
-          <div class="nav__btn">
-            <i class="far fa-smile-wink"></i>
+      <main class="screen__main">
+        <nav class="screen__nav">
+          <div class="nav__column">
+            <a href="/friend.html" title="Friend" class="nav__link selected">
+              <i class="fas fa-user"></i>
+            </a>
+            <a href="/chat.html" title="Chat" class="nav__link">
+              <i class="fas fa-comment"></i>
+            </a>
+            <a href="/more.html" title="More" class="nav__link">
+              <i class="fas fa-ellipsis-h"></i>
+            </a>
           </div>
-          <div class="nav__btn">
-            <i class="far fa-bell"></i>
+          <div class="nav__column">
+            <div class="nav__btn" title="Emoticons">
+              <i class="far fa-smile-wink"></i>
+            </div>
+            <div class="nav__btn">
+              <i class="far fa-bell" title="Notice"></i>
+            </div>
+            <a
+              href="/setting.html"
+              title="Setting"
+              target="_blank"
+              class="nav__btn"
+            >
+              <i class="fas fa-cog"></i
+            ></a>
           </div>
-          <a href="/setting.html" target="_blank" class="nav__btn">
-            <i class="fas fa-cog"></i
-          ></a>
-        </div>
-      </nav>
+        </nav>
+        <main class="friend__container container">
+          <div class="friend__title title">
+            <div class="title__column">Friends</div>
+            <div class="title__column">
+              <span class="title__icon" title="Add friend">
+                <i class="fas fa-user-plus"></i>
+              </span>
+            </div>
+          </div>
+          <div class="friend__search search">
+            <div class="search__icon">
+              <i class="fas fa-search"></i>
+            </div>
+            <input
+              type="text"
+              class="search__input"
+              placeholder="Search for name"
+            />
+          </div>
+          <ul class="friend__list list">
+            <div class="friend__content content">
+              <div class="content__column">
+                <a href="/profile-me.html" class="content__profile-link">
+                  <img
+                    src="/images/jaesuk.jpg"
+                    class="content__avatar b-avatar"
+                  />
+                </a>
+                <div class="content__title">
+                  <div class="content__name">Me</div>
+                  <div class="content__status content__subtitle">Welcome!</div>
+                </div>
+              </div>
+              <div class="content__column">
+                <div class="content__music">
+                  <span class="music__text">IU-Blueming</span>
+                  &nbsp;
+                  <i class="far fa-play-circle"></i>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div class="content__text">Favorites</div>
+            <div class="friend__content content">
+              <div class="content__column">
+                <a href="/profile-me.html" class="content__profile-link">
+                  <img src="/images/jaesuk.jpg" class="content__avatar" />
+                </a>
+                <div class="content__title">
+                  <div class="content__name">Me</div>
+                  <div class="content__status content__subtitle">Welcome!</div>
+                </div>
+              </div>
+              <div class="content__column">
+                <div class="content__music">
+                  <span class="music__text">IU-Blueming</span>
+                  &nbsp;
+                  <i class="far fa-play-circle"></i>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div class="content__text">Friends &nbsp; 8</div>
+            <li class="friend__content content">
+              <div class="content__column">
+                <a href="/profile-me.html" class="content__profile-link">
+                  <img src="/images/jaesuk.jpg" class="content__avatar" />
+                </a>
+                <div class="content__title">
+                  <div class="content__name">Me</div>
+                  <div class="content__status content__subtitle">Welcome!</div>
+                </div>
+              </div>
+              <div class="content__column">
+                <div class="content__music">
+                  <span class="music__text">IU-Blueming</span>
+                  &nbsp;
+                  <i class="far fa-play-circle"></i>
+                </div>
+              </div>
+            </li>
+            <li class="friend__content content">
+              <div class="content__column">
+                <a href="/profile-me.html" class="content__profile-link">
+                  <img src="/images/jaesuk.jpg" class="content__avatar" />
+                </a>
+                <div class="content__title">
+                  <div class="content__name">Me</div>
+                  <div class="content__status content__subtitle">Welcome!</div>
+                </div>
+              </div>
+              <div class="content__column">
+                <div class="content__music">
+                  <span class="music__text">IU-Blueming</span>
+                  &nbsp;
+                  <i class="far fa-play-circle"></i>
+                </div>
+              </div>
+            </li>
+            <li class="friend__content content">
+              <div class="content__column">
+                <a href="/profile-me.html" class="content__profile-link">
+                  <img src="/images/jaesuk.jpg" class="content__avatar" />
+                </a>
+                <div class="content__title">
+                  <div class="content__name">Me</div>
+                  <div class="content__status content__subtitle">Welcome!</div>
+                </div>
+              </div>
+              <div class="content__column">
+                <div class="content__music">
+                  <span class="music__text">IU-Blueming</span>
+                  &nbsp;
+                  <i class="far fa-play-circle"></i>
+                </div>
+              </div>
+            </li>
+            <li class="friend__content content">
+              <div class="content__column">
+                <a href="/profile-me.html" class="content__profile-link">
+                  <img src="/images/jaesuk.jpg" class="content__avatar" />
+                </a>
+                <div class="content__title">
+                  <div class="content__name">Me</div>
+                  <div class="content__status content__subtitle">Welcome!</div>
+                </div>
+              </div>
+              <div class="content__column">
+                <div class="content__music">
+                  <span class="music__text">IU-Blueming</span>
+                  &nbsp;
+                  <i class="far fa-play-circle"></i>
+                </div>
+              </div>
+            </li>
+            <li class="friend__content content">
+              <div class="content__column">
+                <a href="/profile-me.html" class="content__profile-link">
+                  <img src="/images/jaesuk.jpg" class="content__avatar" />
+                </a>
+                <div class="content__title">
+                  <div class="content__name">Me</div>
+                  <div class="content__status content__subtitle">Welcome!</div>
+                </div>
+              </div>
+              <div class="content__column">
+                <div class="content__music">
+                  <span class="music__text">IU-Blueming</span>
+                  &nbsp;
+                  <i class="far fa-play-circle"></i>
+                </div>
+              </div>
+            </li>
+            <li class="friend__content content">
+              <div class="content__column">
+                <a href="/profile-me.html" class="content__profile-link">
+                  <img src="/images/jaesuk.jpg" class="content__avatar" />
+                </a>
+                <div class="content__title">
+                  <div class="content__name">Me</div>
+                  <div class="content__status content__subtitle">Welcome!</div>
+                </div>
+              </div>
+              <div class="content__column">
+                <div class="content__music">
+                  <span class="music__text">IU-Blueming</span>
+                  &nbsp;
+                  <i class="far fa-play-circle"></i>
+                </div>
+              </div>
+            </li>
+            <li class="friend__content content">
+              <div class="content__column">
+                <a href="/profile-me.html" class="content__profile-link">
+                  <img src="/images/jaesuk.jpg" class="content__avatar" />
+                </a>
+                <div class="content__title">
+                  <div class="content__name">Me</div>
+                  <div class="content__status content__subtitle">Welcome!</div>
+                </div>
+              </div>
+              <div class="content__column">
+                <div class="content__music">
+                  <span class="music__text">IU-Blueming</span>
+                  &nbsp;
+                  <i class="far fa-play-circle"></i>
+                </div>
+              </div>
+            </li>
+            <li class="friend__content content">
+              <div class="content__column">
+                <a href="/profile-me.html" class="content__profile-link">
+                  <img src="/images/jaesuk.jpg" class="content__avatar" />
+                </a>
+                <div class="content__title">
+                  <div class="content__name">Me</div>
+                  <div class="content__status content__subtitle">Welcome!</div>
+                </div>
+              </div>
+              <div class="content__column">
+                <div class="content__music">
+                  <span class="music__text">IU-Blueming</span>
+                  &nbsp;
+                  <i class="far fa-play-circle"></i>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </main>
+      </main>
       <footer class="screen__footer">
         <div class="footer__text-box">
           <div class="footer__text">

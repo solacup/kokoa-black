@@ -11,7 +11,7 @@
     <title>KoKoa Black</title>
   </head>
   <body>
-    <div class="screen chat">
+    <div class="screen more">
       <header class="screen__header">
         <div class="header__column">06:00</div>
         <div class="header__column">
@@ -23,30 +23,110 @@
           <i class="fas fa-battery-full"></i>
         </div>
       </header>
-      <nav class="screen__nav">
-        <div class="nav__column">
-          <a href="/friend.html" class="nav__link">
-            <i class="fas fa-user"></i>
-          </a>
-          <a href="/chat.html" class="nav__link">
-            <i class="fas fa-comment"></i>
-          </a>
-          <a href="/more.html" class="nav__link selected">
-            <i class="fas fa-ellipsis-h"></i>
-          </a>
-        </div>
-        <div class="nav__column">
-          <div class="nav__btn">
-            <i class="far fa-smile-wink"></i>
+      <main class="screen__main">
+        <nav class="screen__nav">
+          <div class="nav__column">
+            <a href="/friend.html" title="Friend" class="nav__link">
+              <i class="fas fa-user"></i>
+            </a>
+            <a href="/chat.html" title="Chat" class="nav__link">
+              <i class="fas fa-comment"></i>
+            </a>
+            <a href="/more.html" title="More" class="nav__link selected">
+              <i class="fas fa-ellipsis-h"></i>
+            </a>
           </div>
-          <div class="nav__btn">
-            <i class="far fa-bell"></i>
+          <div class="nav__column">
+            <div class="nav__btn" title="Emoticons">
+              <i class="far fa-smile-wink"></i>
+            </div>
+            <div class="nav__btn">
+              <i class="far fa-bell" title="Notice"></i>
+            </div>
+            <a
+              href="/setting.html"
+              title="Setting"
+              target="_blank"
+              class="nav__btn"
+            >
+              <i class="fas fa-cog"></i
+            ></a>
           </div>
-          <a href="/setting.html" target="_blank" class="nav__btn">
-            <i class="fas fa-cog"></i
-          ></a>
-        </div>
-      </nav>
+        </nav>
+        <main class="more__container container">
+          <div class="more__title title">
+            <div class="title__column">More</div>
+            <div class="title__column"></div>
+          </div>
+          <div class="friend__content content">
+            <div class="content__column">
+              <a href="/setting.html" class="content__profile-link">
+                <img
+                  src="/images/jaesuk.jpg"
+                  class="content__avatar b-avatar"
+                />
+              </a>
+              <div class="content__title">
+                <div class="content__name">Me</div>
+                <div class="content__email content__subtitle">
+                  1234@kokoa.com
+                </div>
+              </div>
+            </div>
+            <div class="content__column"></div>
+          </div>
+          <div class="content__btns">
+            <button class="btns__column">
+              <i class="far fa-envelope"></i>
+              <span class="btn__text">Not read</span>
+            </button>
+            <button class="btns__column">
+              <i class="far fa-calendar-check"></i>
+              <span class="btn__text">Schedule</span>
+            </button>
+          </div>
+          <div class="content__menu">
+            <div class="menu__column">
+              <i class="fas fa-comment-dots"></i>
+              <div class="menu__text">News</div>
+            </div>
+            <div class="menu__column">
+              <i class="fas fa-folder"></i>
+              <div class="menu__text">File</div>
+            </div>
+            <div class="menu__column">
+              <i class="fas fa-flask"></i>
+              <div class="menu__text">Laboratory</div>
+            </div>
+            <div class="menu__column">
+              <i class="fas fa-info-circle"></i>
+              <div class="menu__text">Information</div>
+            </div>
+            <div class="menu__column">
+              <i class="fas fa-hashtag"></i>
+              <div class="menu__text">Story</div>
+            </div>
+            <div class="menu__column">
+              <i class="fas fa-volume-off"></i>
+              <div class="menu__text">Notice</div>
+            </div>
+            <div class="menu__column">
+              <i class="fas fa-question-circle"></i>
+              <div class="menu__text">Help</div>
+            </div>
+            <div class="menu__column">
+              <i class="fab fa-android"></i>
+              <div class="menu__text">Question</div>
+            </div>
+          </div>
+          <hr />
+          <div class="content__weather">
+            <span class="weather__location"></span>
+            <span class="weather__temp"></span>
+            <i class="fas fa-sun"></i>
+          </div>
+        </main>
+      </main>
       <footer class="screen__footer">
         <div class="footer__text-box">
           <div class="footer__text">

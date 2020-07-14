@@ -1,0 +1,26 @@
+.friend {
+  border: 1px solid rgb(162, 164, 255);
+  box-shadow: 0 0 30px 7px rgb(51, 47, 255), inset 0 0 20px 3px rgb(51, 47, 255);
+}
+
+.friend hr {
+  border: 1px solid rgb(53, 53, 53);
+  border-radius: 1px;
+  margin-right: 5px;
+}
+
+.content__music {
+  font-size: 12px;
+  border: 1px solid rgb(0, 102, 255);
+  border-radius: 15px;
+  padding: 2px 4px 2px 10px;
+}
+
+.content__music i {
+  color: rgb(0, 102, 255);
+}
+
+.content__text {
+  font-size: 13px;
+  opacity: 0.5;
+}

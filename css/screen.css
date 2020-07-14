@@ -74,9 +74,21 @@
 }
 
 .chat .nav__link.selected {
-  color: rgb(255, 76, 76);
+  color: rgb(224, 82, 82);
   box-shadow: 0 0 5px 5px rgba(255, 120, 120, 0.4),
     inset 0 0 10px 10px rgba(255, 120, 120, 0.4);
+}
+
+.friend .nav__link.selected {
+  color: rgb(87, 85, 255);
+  box-shadow: 0 0 5px 5px rgba(122, 120, 255, 0.4),
+    inset 0 0 10px 10px rgba(122, 120, 255, 0.4);
+}
+
+.more .nav__link.selected {
+  color: rgb(0, 136, 29);
+  box-shadow: 0 0 5px 5px rgba(70, 136, 62, 0.4),
+    inset 0 0 10px 10px rgba(70, 136, 62, 0.4);
 }
 
 .nav__btn {
