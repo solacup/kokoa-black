@@ -28,28 +28,28 @@
 }
 
 .profile__main.haha::after {
-  background: center/cover url(/images/haha-bg.jpg);
+  background: center/cover url(../images/haha-bg.jpg);
 }
 .profile__main.jaesuk::after {
-  background: center/cover url(/images/jaesuk-bg.jpg);
+  background: center/cover url(../images/jaesuk-bg.jpg);
 }
 .profile__main.jihyo::after {
-  background: center/cover url(/images/jihyo-bg.jpg);
+  background: center/cover url(../images/jihyo-bg.jpg);
 }
 .profile__main.jonggook::after {
   background: center/cover url(/images/jonggook-bg.jpg);
 }
 .profile__main.kwangsoo::after {
-  background: center/cover url(/images/kwangsoo-bg.jpg);
+  background: center/cover url(../images/kwangsoo-bg.jpg);
 }
 .profile__main.sechan::after {
-  background: center/cover url(/images/sechan-bg.jpg);
+  background: center/cover url(../images/sechan-bg.jpg);
 }
 .profile__main.somin::after {
-  background: center/cover url(/images/somin-bg.jpg);
+  background: center/cover url(../images/somin-bg.jpg);
 }
 .profile__main.sukjin::after {
-  background: center/cover url(/images/sukjin-bg.jpg);
+  background: center/cover url(../images/sukjin-bg.jpg);
 }
 
 .profile__header {
