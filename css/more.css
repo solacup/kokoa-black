@@ -98,3 +98,24 @@
   height: 22px;
   border-right: 1px solid rgb(100, 100, 100);
 }
+
+.log-out {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.log-out-link {
+  width: 80px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgb(58, 58, 58);
+}
+
+.log-out-link:hover {
+  background-color: rgb(77, 77, 77);
+  box-shadow: 0 0 5px 3px rgba(100, 100, 100, 0.5);
+}

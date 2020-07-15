@@ -13,7 +13,7 @@
   <body>
     <div class="screen more">
       <header class="screen__header">
-        <div class="header__column">06:00</div>
+        <div class="header__column">05:00</div>
         <div class="header__column">
           <i class="fas fa-clock"></i>
           <i class="fas fa-volume-down"></i>
@@ -31,6 +31,7 @@
             </a>
             <a href="/chat.html" title="Chat" class="nav__link">
               <i class="fas fa-comment"></i>
+              <span>1</span>
             </a>
             <a href="/more.html" title="More" class="nav__link selected">
               <i class="fas fa-ellipsis-h"></i>
@@ -43,10 +44,7 @@
             <div class="nav__btn">
               <i class="far fa-bell" title="Notice"></i>
             </div>
-            <a
-              href="/setting.html"
-              title="Setting"
-              target="_blank"
+            <div
               class="nav__btn"
             >
               <i class="fas fa-cog"></i
@@ -60,12 +58,12 @@
           </div>
           <div class="friend__content content">
             <div class="content__column">
-              <a href="/setting.html" class="content__profile-link">
+              <div class="content__profile-link">
                 <img
                   src="/images/jaesuk.jpg"
                   class="content__avatar b-avatar"
                 />
-              </a>
+              </div>
               <div class="content__title">
                 <div class="content__name">Me</div>
                 <div class="content__email content__subtitle">
@@ -129,6 +127,9 @@
             <span class="border"></span>
             <i class="fas fa-sun"></i>
           </div>
+          <div class="log-out">
+            <a href="/index.html" class="log-out-link">Logout</a>
+          </div>
         </main>
       </main>
       <footer class="screen__footer">
@@ -148,6 +149,11 @@
           Go to Website
         </a>
       </footer>
+    </div>
+    <div class="small__screen">
+      <span class="small__text">
+        Screen is too small!
+      </span>
     </div>
   </body>
 </html>
