@@ -37,7 +37,7 @@
   background: center/cover url(../images/jihyo-bg.jpg);
 }
 .profile__main.jonggook::after {
-  background: center/cover url(/images/jonggook-bg.jpg);
+  background: center/cover url(../images/jonggook-bg.jpg);
 }
 .profile__main.kwangsoo::after {
   background: center/cover url(../images/kwangsoo-bg.jpg);
